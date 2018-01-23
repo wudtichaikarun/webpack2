@@ -1,4 +1,6 @@
 import React from 'react'
+import Hi from './Hi'
+import styles from './Root.scss'
 
 function getMessage() {
   return 'Romantic'
@@ -6,7 +8,9 @@ function getMessage() {
 
 export default() => (
   <div>
-    <h1>{getMessage()}</h1>
-    <div>Hello</div>
+    <input type="text"/>
+    <h1 className={styles.hello}>{getMessage()}</h1>
+    <Hi />
+    <div>Hello world</div>
   </div>
 )
