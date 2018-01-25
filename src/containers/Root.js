@@ -3,6 +3,8 @@ import Hi from './Hi'
 import styles from './Root.scss'
 
 function getMessage() {
+  let msg = 'hello world'
+  debugger
   return 'Romantic'
 }
 
